@@ -5,6 +5,7 @@
 
 nav ul {
 	background-color: black;
+	border-color: black;
 	border-radius: 10px;
 	list-style-type: none;
 	margin: 0;
@@ -24,5 +25,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+	color: black;
+}
+
+section {
+	border-color: #555;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: thin;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
