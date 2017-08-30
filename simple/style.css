@@ -3,10 +3,15 @@
 	text-align: center;
 }
 
-nav ul {
+nav  *{
 	background-color: black;
 	border-color: black;
-	border-radius: 10px;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: thin;
+}
+
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	overflow: hidden;
@@ -24,12 +29,22 @@ nav ul li a {
 	text-decoration: none;
 }
 
+nav ul li a.active {
+    background-color: white;
+	color: black;
+}
+
 nav ul li a:hover {
     background-color: white;
+	color: black;
+}
+
+nav {
+	background-color: black;
 	border-color: black;
+	border-radius: 10px;
 	border-style: solid;
 	border-width: thin;
-	color: black;
 }
 
 section {
