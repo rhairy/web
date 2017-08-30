@@ -1,0 +1,28 @@
+* {
+	font-family: "Lucida Console", "Arial", "Times New Roman";
+	text-align: center;
+}
+
+nav ul {
+	background-color: black;
+	border-radius: 10px;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: white;
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
