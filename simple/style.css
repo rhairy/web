@@ -3,10 +3,29 @@
 	text-align: center;
 }
 
+input {
+	margin: 8px 0;
+	padding-left: .2%;
+	text-align: left;
+}
+
+input[type=submit] {
+	text-align: center;
+}
+
+form {
+	border-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: thin;
+	padding: 6px 6px;
+	text-align: left;
+}
+
 nav  *{
 	background-color: black;
 	border-color: black;
-	border-radius: 12px;
+	border-radius: 5px;
 	border-style: solid;
 	border-width: thin;
 }
@@ -39,17 +58,9 @@ nav ul li a:hover {
 	color: black;
 }
 
-nav {
-	background-color: black;
-	border-color: black;
-	border-radius: 10px;
-	border-style: solid;
-	border-width: thin;
-}
-
 section {
 	border-color: #555;
-	border-radius: 10px;
+	border-radius: 5px;
 	border-style: solid;
 	border-width: thin;
 	margin-top: 1%;
